@@ -5,8 +5,9 @@ import "./App.css";
 function Header() {
   return (
     <div className="header">
-      <h1>Ashish Kumar Pandey</h1>
-      <p>AI/ML Engineer</p>
+      <h2>Profile</h2>
+      <p>Ashish Kumar Pandey</p>
+      <p>Gopalganj ,Bihar .</p>
       <p>ashishpandey99052@gmail.com | +91-9905256515 | Bengaluru</p>
     </div>
   );
@@ -35,7 +36,7 @@ function App() {
 
       <div className="section">
         <h2>Objective</h2>
-        <p>To work as an AI/ML Engineer  and build Top Quality AI Agents  using the LangChain and LangGraph.</p>
+        <p>I have seen the Mistakes of Developer since my First Project and improves my Skills over that mistakes ,I Commited to my continous improvements to Enhance the Productivity . To work as an AI/ML Engineer  and build Top Quality AI Agents  using the LangChain and LangGraph.</p>
       </div>
 
       <Education />
@@ -43,8 +44,8 @@ function App() {
       <div className="section">
         <h2>Skills</h2>
         <ul>
-          {skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
+          {skills.map((skill) => (
+            <li>{skill}</li>
           ))}
         </ul>
       </div>
